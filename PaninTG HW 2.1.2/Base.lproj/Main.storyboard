@@ -23,6 +23,9 @@
                                 <state key="normal" title="START">
                                     <preferredSymbolConfiguration key="preferredSymbolConfiguration" scale="default"/>
                                 </state>
+                                <connections>
+                                    <action selector="buttPres:" destination="BYZ-38-t0r" eventType="touchUpInside" id="375-mW-gJT"/>
+                                </connections>
                             </button>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="x13-92-eoC">
                                 <rect key="frame" x="147" y="64" width="120" height="435"/>
@@ -54,6 +57,12 @@
                             <constraint firstItem="OWi-lp-R1n" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="126" id="m4j-VH-x6j"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="buttonStart" destination="OWi-lp-R1n" id="d79-vK-huR"/>
+                        <outlet property="greenLight" destination="pfr-iM-VRf" id="M6a-Dh-pb0"/>
+                        <outlet property="redLight" destination="QmY-uV-6bC" id="phM-xy-xxT"/>
+                        <outlet property="yellowLight" destination="Op2-DS-Zp2" id="Ea5-Gv-NHM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
